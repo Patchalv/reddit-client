@@ -25,6 +25,7 @@ const SinglePost = (props) => {
     }
 
     /* This take the props.timeAgo 10 digit timestamp and calc hour many days/hours ago it was posted */
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(() => {
         const curDate = new Date()
         const date = new Date(props.timeAgo * 1000)
@@ -42,7 +43,7 @@ const SinglePost = (props) => {
             output = `${hoursAgo} hour ago`
         }
         setTime(output)
-    },[])
+    })
 
     // Guard clause for if the timeAgo is outputting negative values
     if (time < 1) return

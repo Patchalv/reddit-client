@@ -16,13 +16,13 @@ const Subreddits = () => {
         if(fetchCount > 0) return 
         dispatch(fetchSubReddits())
         fetchCount++
-    }, []);
+    });
 
     useEffect(() => {
         if(postCount > 0) return
         dispatch(fetchActiveRedditPosts('home'))
         postCount++
-    }, []);
+    });
 
 
     return (

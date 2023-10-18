@@ -1,3 +1,5 @@
+<img width="1595" alt="reddit-client" src="https://github.com/Patchalv/reddit-client/assets/35778404/462aebff-893c-4c93-ba89-506ed2b8f114">
+
 # Reddit Client Project
 
 A simple Reddit client for browsing selected subreddit categories. This project was created as an assignment in Codecademy's Full Stack Engineer Path.
@@ -43,6 +45,7 @@ Project Requirements:
 - OPTIONAL: Make your application a progressive web app
 
 ### Wireframe
+![wireframe](https://github.com/Patchalv/reddit-client/assets/35778404/37e253be-f4ae-4ba1-9385-528d9faeef44)
 
 ### Features
 - Users can use the application on any device (desktop to mobile)

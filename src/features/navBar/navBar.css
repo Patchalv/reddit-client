@@ -1,0 +1,49 @@
+header {
+    box-shadow: 0 .5rem .5rem rgb(227, 227, 227)
+}
+
+.navBar {
+    width: 65%;
+    height: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navBarIcon {
+    min-height: 2rem;
+    min-width: 2rem;
+    flex-shrink: 1;
+}
+
+.navBarLogo {
+    margin-left: 4rem;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    flex-shrink: 1;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+@media only screen and (min-width: 375px) {
+    .navBar {
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 960px) {
+    .navBar {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 1372px) {
+    .navBar {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .navBarLeft {
+        margin-left: 0
+    }
+}

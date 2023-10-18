@@ -6,7 +6,10 @@
 }
 
 .App {
-  text-align: center;
+  display: flex;
+  gap: 1rem;
+  padding: 0 1rem;
+  margin-top: 2rem;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -15,9 +18,3 @@
   }
 }
 
-.main-content {
-  display: flex;
-  gap: 1rem;
-  padding: 0 1rem;
-  margin-top: 1rem;
-}
